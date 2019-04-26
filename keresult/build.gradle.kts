@@ -2,7 +2,11 @@ import org.gradle.internal.os.OperatingSystem
 
 plugins {
     kotlin("multiplatform") version "1.3.30"
+    `maven-publish`
 }
+
+group = "kotlin-everywhere"
+version = "0.1"
 
 
 repositories {
